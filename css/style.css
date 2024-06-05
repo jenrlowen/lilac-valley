@@ -1,0 +1,136 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color:rgb(255, 249, 242);
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    font-family: "Gafata", sans-serif;
+}
+
+.topnav img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.topnav a {
+    display: inline-block;
+    color: saddlebrown;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:rgb(255, 236, 199);
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color:rgb(184, 147, 98);
+    color: white;
+}
+
+.barnhouse-image {
+   width: 100%;
+   height: auto
+}
+
+h1 {
+    text-align: center;
+    font-family: "Alex Brush", cursive;
+    color: #573a06;
+}
+
+p {
+    text-align: center;
+    margin: 30px;
+    font-family: "Gafata", sans-serif;
+    color:rgb(62, 55, 47);
+}
+
+.disclaimer {
+    margin-top: 100px;
+    background-color: rgb(232, 195, 146);
+}
+
+@media screen and (max-width: 360px) {
+    .topnav {
+    max-width: 360px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+        
+    .topnav img {
+    margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav {
+        max-width: 1024px;
+        align-items: center;
+        }
+        .topnav a {
+        padding: 10px;
+        font-size: 14px;
+        }
+            
+        .topnav img {
+        margin-right: 10px;
+        }
+
+}
+
+/* website references:
+Abken, Christiana. “Pink piglets.” 2018. Unsplash. Accessed May 18, 2024. https://unsplash.com/photos/pink-piglets-_QDfoqZWyZ4
+
+Angel, Ricardo Gomez. “Two brown cattle on grass field.” 2019. Unsplash. Accessed May 14, 2024. https://unsplash.com/photos/two-brown-cattle-on-grass-field-Gh_Oc8USMe8
+
+Arnst, Ryan. “Green and red apples in brown wooden bucket.” 2020. Unsplash. Accessed May 14, 2024. https://unsplash.com/photos/green-and-red-apples-in-brown-wooden-bucket-jN7egxv2K3M
+
+Banks, Clay. “A dining room with a table and chairs.” 2024. Unsplash. Accessed May 14, 2024. https://unsplash.com/photos/a-dining-room-with-a-table-and-chairs-Gww5JqBsblA
+
+Banks, Clay. “A kitchen with a sink stove dishwasher and a window.” 2024. Unsplash. Accessed May 14, 2024. https://unsplash.com/photos/a-kitchen-with-a-sink-stove-dishwasher-and-a-window-e6lBLRDczqM
+
+Battani, Camylla. “Close up photography of house.” 2018. Unsplash. Accessed May 14, 2024. https://unsplash.com/photos/close-up-photography-of-house-ashxH5TQ8Go
+
+Buck, Timothy. “Brown wooden framed white padded chair in between green in door leaf plants inside bedroom.” 2017. Unsplash. Accessed May 17, 2024. https://unsplash.com/photos/brown-wooden-framed-white-padded-chair-in-between-green-indoor-leaf-plants-inside-bedroom-psrloDbaZc8
+
+Burri, Christian. “Brown cattle on green grass.” 2019. Unsplash. Accessed May 15, 2024. https://unsplash.com/photos/brown-cattle-on-green-grass-hoDOPpfAcmI 
+
+Carter, Sam. “White sheep on green grass during daytime.” 2017. Unsplash. Accessed May 17, 2024. https://unsplash.com/photos/white-sheep-on-green-grass-during-daytime-GHOiyov2TSQ
+
+Kent, Todd. “Gray wooden house.” 2019. Unsplash. Accessed May 14, 2024. https://unsplash.com/photos/gray-wooden-house-178j8tJrNlc
+
+Koehn, Karsten. “Brown wooden house on green grass field near mountain under blue sky during daytime.” 2021. Unsplash. Accessed May 15, 2024. https://unsplash.com/photos/brown-wooden-house-on-green-grass-field-near-mountain-under-blue-sky-during-daytime-Mb975vDopLw
+
+Krivec, Ales. “Brown house in white petaled flower field.” 2015. Unsplash. Accessed May 17, 2024. https://unsplash.com/photos/brown-house-in-white-petaled-flower-field-XpumNa3bOEc
+
+Macedo, Lucia. “Brown and white horses on green grass field during daytime.” 2021. Unsplash. Accessed May 17, 2024. https://unsplash.com/photos/brown-and-white-horses-on-green-grass-field-during-daytime-xXLT52bAzkk 
+
+Markley, Hannah. “Close photography of white goat.” 2017. Unsplash. Accessed May 18, 2024. https://unsplash.com/photos/close-photography-of-white-goat-P507g0P9hag
+
+Nachev, Megumi. “White and black cattle on the field photograph.” 2019. Unsplash. Accessed May 18, 2024. https://unsplash.com/photos/white-and-black-cattle-on-the-field-photograph-8rVSeXEJG1g
+
+Neumann, Rolf. “Two brown rabbits.” 2019. Unsplash. Accessed May 18, 2024. https://unsplash.com/photos/two-brown-rabbits-agQyRtb4p30
+
+Polo, Chiara. “Silver tabby cat lying on brown hay.” 2021. Unsplash. Accessed May 18, 2024. https://unsplash.com/photos/silver-tabby-cat-lying-on-brown-hay-h1zkLZ0cdEw
+
+Skeiky, Radwan. “Woman in white shirt standing beside brown horse during daytime.” 2021. Unsplash. Accessed May 18, 2024. https://unsplash.com/photos/woman-in-white-shirt-standing-beside-brown-horse-during-daytime-fTFbASgzS-I
+
+Szopka, Zosia. “Close up photography of flock of chicken.” 2018. Unsplash. Accessed May 18, 2024. https://unsplash.com/photos/close-up-photography-of-flock-of-chicken-gAFO9T4URjM
+
+W, Mauve. “Dog leaning on a wooden fence.” 2019. Unsplash. Accessed May 18, 2024. https://unsplash.com/photos/dog-leaning-on-a-wooden-fence-dlz7K-fG1SA
+
+Webb, Scott. “White house under maple trees.” 2016. Unsplash. Accessed May 18, 2024. https://unsplash.com/photos/white-house-under-maple-trees-1ddol8rgUH8

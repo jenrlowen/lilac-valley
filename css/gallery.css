@@ -1,0 +1,204 @@
+body {
+background-color: antiquewhite;
+margin: 0;
+padding: 0;
+}
+
+.topnav {
+background-color:rgb(255, 249, 242);
+display: flex;
+overflow: hidden;
+text-align: center;
+justify-content: center;
+font-family: "Gafata", sans-serif;
+}
+
+.topnav img {
+width: 50px;
+height: auto;
+margin-right: 20px;
+}
+
+.topnav a {
+display: inline-block;
+color: saddlebrown;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color:rgb(255, 236, 199);
+color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+background-color:rgb(184, 147, 98);
+color: white;
+}
+
+.album {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+
+.animals
+{
+position:relative;
+text-align: center;
+transition: 0.5s;
+}
+
+.animals:hover {
+    transform: scale(1.1)
+}
+
+.horse {
+width: 500px;
+height: auto;
+border-radius: 2%;
+}
+
+.our {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+color:rgb(255, 255, 255);
+font-family: "Alex Brush", cursive;
+}
+
+.house
+{
+position:relative;
+text-align: center;
+transition: 0.5s;
+margin-top: 30px;
+}
+
+.house:hover {
+transform: scale(1.1)
+}
+
+.bedroom {
+width: 500px;
+height: auto;
+border-radius: 2%;
+}
+
+.housing {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+color:rgb(255, 255, 255);
+font-family: "Alex Brush", cursive;
+}
+
+.land
+{
+position:relative;
+text-align: center;
+transition: 0.5s;
+margin-top: 30px;
+}
+
+.land:hover {
+    transform: scale(1.1)
+}
+
+.field {
+width: 500px;
+height: auto;
+border-radius: 2%;
+}
+
+.farm {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+color:rgb(255, 255, 255);
+font-family: "Alex Brush", cursive;
+}
+
+@media screen and (max-width: 360px) {
+    .topnav {
+    max-width: 360px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+        
+    .topnav img {
+    margin-right: 10px;
+    }
+
+    .horse {
+        width: 300px;
+        height: auto;
+        border-radius: 2%;
+        }
+        
+        .our {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        }
+
+        .bedroom {
+        width: 300px;
+        height: auto;
+        border-radius: 2%;
+        }
+            
+        .housing {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        }
+
+        .field {
+        width: 300px;
+        height: auto;
+        border-radius: 2%;
+        }
+
+        .farm {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        }
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav {
+    max-width: 1024px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+            
+    .topnav img {
+    margin-right: 10px;
+    }
+
+}

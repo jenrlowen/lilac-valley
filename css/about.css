@@ -1,0 +1,198 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color:rgb(255, 249, 242);
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    font-family: "Gafata", sans-serif;
+}
+
+.topnav img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.topnav a {
+    display: inline-block;
+    color: saddlebrown;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:rgb(255, 236, 199);
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color:rgb(184, 147, 98);
+    color: white;
+}
+
+.cow-image {
+    width: 100%;
+    height: auto;
+ }
+
+ h1 {
+    text-align: center;
+    font-family: "Alex Brush", cursive;
+    color: #573a06;
+}
+
+p {
+    text-align: center;
+    margin: 30px;
+    font-family: "Gafata", sans-serif;
+    color:rgb(62, 55, 47);
+}
+
+.image1
+{
+    position:relative;
+    text-align: center;
+    opacity: 60%;
+}
+
+.image1:hover{
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.activities {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 30px;
+color:rgb(255, 255, 255);
+font-family: "Gafata", sans-serif;
+}
+
+.apples {
+width: 300px;
+height: auto;
+border-radius: 50%;
+}
+
+.image2
+{
+    position:relative;
+    text-align: center;
+    opacity: 60%;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.image2:hover
+{
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.trip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    font-family: "Gafata", sans-serif;
+    }
+
+.child {
+width: 300px;
+height: auto;
+border-radius: 50%;
+}
+
+.image3
+{
+    position:relative;
+    text-align: center;
+    opacity: 60%;
+}
+
+.image3:hover
+{
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.accommodation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    font-family: "Gafata", sans-serif;
+    }
+
+.house {
+width: 300px;
+height: auto;
+border-radius: 50%;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 360px) {
+    .topnav {
+    max-width: 360px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+        
+    .topnav img {
+    margin-right: 10px;
+    }
+
+    .images {
+        display:block;
+    }
+
+    .image2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav {
+    max-width: 1024px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+            
+    .topnav img {
+    margin-right: 10px;
+    }
+
+    .image2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}

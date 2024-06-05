@@ -1,0 +1,189 @@
+body {
+background-color: antiquewhite;
+margin: 0;
+padding: 0;
+}
+    
+.topnav {
+background-color:rgb(255, 249, 242);
+display: flex;
+overflow: hidden;
+text-align: center;
+justify-content: center;
+font-family: "Gafata", sans-serif;
+}
+    
+.topnav img {
+width: 50px;
+height: auto;
+margin-right: 20px;
+}
+    
+.topnav a {
+display: inline-block;
+color: saddlebrown;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+    
+.topnav a:hover {
+background-color:rgb(255, 236, 199);
+color: rgb(0, 0, 0);
+}
+    
+.topnav a.active {
+background-color:rgb(184, 147, 98);
+color: white;
+}
+
+.sheep {
+width: 25%;
+height: auto;
+margin-right: 20px;
+transition: 0.5s;
+}
+
+.sheep:hover {
+    transform: scale(1.08)
+}
+
+.goat {
+width: 25%;
+height: auto;
+transition: 0.5s;
+}
+
+.goat:hover {
+    transform: scale(1.08)
+}
+
+.cat {
+width: 25%;
+height: auto;
+margin-left: 20px;
+transition: 0.5s;
+}
+
+.cat:hover {
+    transform: scale(1.08)
+}
+
+.row1 {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.chickens {
+width: 30%;
+height: auto;
+margin-top: 20px;
+margin-right: 20px;
+transition: 0.5s;
+}
+
+.chickens:hover {
+    transform: scale(1.08)
+}
+
+.cow {
+width: 36%;
+height: auto;
+margin-top: 20px;
+transition: 0.5s;
+}
+
+.cow:hover {
+    transform: scale(1.08)
+}
+
+.bunny {
+width: 26%;
+height: auto;
+margin-top: 20px;
+margin-left: 20px;
+transition: 0.5s;
+}
+
+.bunny:hover {
+    transform: scale(1.08)
+}
+
+.row2 {
+display: flex;
+justify-content: center;
+}
+
+.piglets {
+width: 30%;
+height: auto;
+margin-top: 20px;
+margin-right: 20px;
+transition: 0.5s;
+}
+
+.piglets:hover {
+    transform: scale(1.08)
+}
+    
+.dog {
+width: 30%;
+height: auto;
+margin-top: 20px;
+transition: 0.5s;
+}
+
+.dog:hover {
+    transform: scale(1.08)
+}
+    
+.pony {
+width: 30%;
+height: auto;
+margin-top: 20px;
+margin-left: 20px;
+transition: 0.5s;
+}
+
+.pony:hover {
+    transform: scale(1.08)
+}
+    
+.row3 {
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+@media screen and (max-width: 360px) {
+    .topnav {
+    max-width: 360px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+        
+    .topnav img {
+    margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav {
+    max-width: 1024px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+            
+    .topnav img {
+    margin-right: 10px;
+    }
+
+}

@@ -1,0 +1,94 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color:rgb(255, 249, 242);
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    font-family: "Gafata", sans-serif;
+}
+
+.topnav img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.topnav a {
+    display: inline-block;
+    color: saddlebrown;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:rgb(255, 236, 199);
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color:rgb(184, 147, 98);
+    color: white;
+}
+
+.acc {
+    width: 100%;
+    height: auto;
+ }
+
+ .one {
+    text-align: center;
+ }
+
+ h1 {
+    font-family: "Alex Brush", cursive;
+    color: #573a06;
+ }
+
+ p {
+    font-family: "Gafata", sans-serif;
+    color:rgb(62, 55, 47);
+ }
+
+ @media screen and (max-width: 360px) {
+    .topnav {
+    max-width: 360px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+        
+    .topnav img {
+    margin-right: 10px;
+    }
+
+    p {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav {
+    max-width: 1024px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+            
+    .topnav img {
+    margin-right: 10px;
+    }
+
+}

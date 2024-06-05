@@ -1,0 +1,199 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color:rgb(255, 249, 242);
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    font-family: "Gafata", sans-serif;
+}
+
+.topnav img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.topnav a {
+    display: inline-block;
+    color: saddlebrown;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:rgb(255, 236, 199);
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color:rgb(184, 147, 98);
+    color: white;
+}
+
+.porch-image {
+    width: 100%;
+    height: auto;
+ }
+
+ h1 {
+    text-align: center;
+    font-family: "Alex Brush", cursive;
+    color: #573a06;
+}
+
+.box1 {
+    background-color:rgb(217, 196, 178);
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+}
+
+.kitchen {
+    width: 300px;
+    height: auto;
+}
+
+.barnhouse {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.book {
+background-color: rgb(169, 105, 26);
+color: white;
+width: 180px;
+height: 60px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+border-radius: 10%;
+transition: 0.5s;
+font-family: "Gafata", sans-serif;
+}
+
+.book:hover {
+    transform: scale(1.08);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.box2 {
+    background-color:rgb(217, 196, 178);
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.home {
+    width: 300px;
+    height: auto;
+}
+
+.farmhouse {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: "Alex Brush", cursive;
+}
+
+h3 {
+    font-family: "Alex Brush", cursive;
+}
+
+@media screen and (max-width: 360px) {
+    .topnav {
+    max-width: 360px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+        
+    .topnav img {
+    margin-right: 10px;
+    }
+
+    .box1 {
+        width: 280px;
+        height: 140px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .book {
+        width: 80px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-radius: 10%;
+        transition: 0.5s;
+        font-family: "Gafata", sans-serif;
+        font-size: 16px;
+        margin-left: 6px;
+        }
+
+        .box2 {
+            width: 280px;
+            height: 140px;
+        }
+    
+        h3 {
+            font-size: 18px;
+        }
+
+        .home {
+            width: 190px;
+        }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav {
+    max-width: 1024px;
+    align-items: center;
+    }
+    .topnav a {
+    padding: 10px;
+    font-size: 14px;
+    }
+            
+    .topnav img {
+    margin-right: 10px;
+    }
+
+}
